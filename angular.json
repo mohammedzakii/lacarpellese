@@ -24,12 +24,28 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-1.11.3.min.js",
+              "src/assets/bootstrap/js/bootstrap.min.js",
+              "src/assets/js/jquery.countdown.js",
+              "src/assets/js/jquery.isotope-3.0.6.min.js",
+              "src/assets/js/waypoints.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/jquery.meanmenu.min.js",
+              "src/assets/js/sticker.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -82,12 +98,28 @@
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery-1.11.3.min.js",
+              "src/assets/bootstrap/js/bootstrap.min.js",
+              "src/assets/js/jquery.countdown.js",
+              "src/assets/js/jquery.isotope-3.0.6.min.js",
+              "src/assets/js/waypoints.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/jquery.meanmenu.min.js",
+              "src/assets/js/sticker.js",
+              "src/assets/js/main.js"
+            ]
           }
         }
       }
